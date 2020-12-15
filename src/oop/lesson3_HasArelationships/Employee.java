@@ -23,6 +23,10 @@ public class Employee
    public String toString()
   {
     return this.lastName + ", " + this.firstName + "\n" + this.getAddress();
+<<<<<<< HEAD
   }
+=======
+  } 
+>>>>>>> a7392016e5bf11cac3f39c7a7cf53e7dd5e0f121
 
 }

@@ -2,32 +2,28 @@ language = "java10"
 
 # run = "javac -d bin src/oop/lesson1_Intro/*.java; java -cp bin oop.lesson1_Intro.AmongUs"
 
-<<<<<<< HEAD
 # run = "javac -d bin src/oop/lesson2_Encapsulation/*.java; java -cp bin oop.lesson2_Encapsulation.AngryBird1"
-=======
->>>>>>> a7e1744943665bc2340a3fd0b3650c93b5a97e9e
+
 
 # run = "javac -d bin src/oop/lesson2_Encapsulation/*.java; java -cp bin oop.lesson2_Encapsulation.AngryBird2"
 
 # run = "javac -d bin src/oop/lesson1_Intro/*.java; java -cp bin oop.lesson1_Intro.AmongUs"
 
-<<<<<<< HEAD
-=======
-
->>>>>>> a7e1744943665bc2340a3fd0b3650c93b5a97e9e
 # run = "javac -d bin src/oop/lesson3_HasArelationships/*.java; java -cp bin oop.lesson3_HasArelationships.EmployeeAddrDemo"
 
 # run = "javac -d bin src/oop/lesson3_HasArelationships/*.java; java -cp bin oop.lesson3_HasArelationships.ClassroomMain"
 
-<<<<<<< HEAD
+
 # run = "javac -d bin src/oop/lesson3_HasArelationships/*.java; java -cp bin oop.lesson3_HasArelationships.Test"
 
-run = "javac -d bin src/oop/lesson4_IsArelationships/*.java; java -cp bin oop.lesson4_IsArelationships.ClassroomMain"
+# run = "javac -d bin src/oop/lesson4_IsArelationships/*.java; java -cp bin oop.lesson4_IsArelationships.ClassroomMain"
 
 
-=======
-run = "javac -d bin src/oop/lesson4_IsArelationships/*.java; java -cp bin oop.lesson4_IsArelationships.ClassroomMain"
+# run = "javac -d bin src/oop/lesson4_IsArelationships/*.java; java -cp bin oop.lesson4_IsArelationships.ClassroomMain"
 
+# run = "javac -d bin src/oop/lesson5_polymorphism/*.java; java -cp bin oop.lesson5_polymorphism.MainProgram"
 
+run = "javac -d bin src/algorithms/SearchLinear.java; java -cp bin algorithms.SearchLinear"
 
->>>>>>> a7e1744943665bc2340a3fd0b3650c93b5a97e9e
+# run = "javac -d bin src/algorithms/SearchBinary.java; java -cp bin algorithms.SearchBinary"
+

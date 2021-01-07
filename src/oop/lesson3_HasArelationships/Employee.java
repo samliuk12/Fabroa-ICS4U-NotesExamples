@@ -25,6 +25,7 @@ public class Employee
     return this.lastName + ", " + this.firstName + "\n" + this.getAddress();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   }
 =======
   } 
@@ -32,5 +33,8 @@ public class Employee
 =======
   } 
 >>>>>>> a7e1744943665bc2340a3fd0b3650c93b5a97e9e
+=======
+  } 
+>>>>>>> 9c6a14d9cd07614ada0b517f682b4926dbdc705b
 
 }

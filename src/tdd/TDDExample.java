@@ -1,13 +1,21 @@
 package tdd;
 
-public class TDDExample {
+import java.util.*;
 
-  public static boolean twoAsOne(int number1, int number2, int number3 ){
+class TDDExample {
 
-    if (number1 + number2 == number3 || number2 + number3 == number1 || number1 + number3 == number2){
-      return true;
-    }else{
+  public static int highestNumber(int arr[], int index) {
+    if (index == arr.length) {
+      return -1;
+    }
+    return Math.max(arr[index], highestNumber(arr, ++index));
+  }
+
+  public static boolean containsNumber(int arr[], int num, int index) {
+    if (index == arr.length) {
       return false;
     }
+    return arr[index] == num || containsNumber(arr, num, ++index);
   }
+
 }

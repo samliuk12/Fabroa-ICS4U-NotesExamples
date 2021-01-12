@@ -55,6 +55,7 @@ parameters in the super() call should match the parameters of a parent construct
  ```
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
  ![](Inheritance_wHasA.png)
 >>>>>>> a7e1744943665bc2340a3fd0b3650c93b5a97e9e
@@ -63,6 +64,11 @@ parameters in the super() call should match the parameters of a parent construct
  ![](Inheritance_wHasA.png)
 
 >>>>>>> 9c6a14d9cd07614ada0b517f682b4926dbdc705b
+=======
+
+ ![](Inheritance_wHasA.png)
+
+>>>>>>> 4629034ecabd8d018aa00934a5ab79ae9f4ef690
 
 
 ### Is-A vs. Has-A Relationships

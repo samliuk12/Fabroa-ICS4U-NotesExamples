@@ -10,45 +10,26 @@ import tdd.TDDExample;
 
 public class TDDExampleTest {
 
-    /**
-     * An 'before' method is defined to perform any steps that need 
-     * to be taken before a test is run i.e initialize a class, open a file.*/   
     @Before
-    public void SomeBeforeProcedures(){
-        // code for your @After method
+    public void before() {
+
     }
 
-    /**
-     * An 'after' method is defined to perform any steps that need to be taken after a test has run */   
     @After
-    public void SomeAfterProcedures(){
-        // code for your @After method
-    }
+    public void after() {
 
-    /**
-     * An initial test
-     */
-    @Test
-    public void Test1(){
-        // make assertion statment(s)
-        assertEquals(true, TDDExample.twoAsOne(1,2,3));
     }
 
     @Test
-    public void Test2(){
-      assertEquals(false, TDDExample.twoAsOne(2,2,3));
+    public void test1() {
+      int arr[] = {1, 2, 3};
+      assertEquals(3, TDDExample.highestNumber(arr, 0));
     }
 
     @Test
-    public void Test3(){
-        // make assertion statment(s)
-        assertEquals(true, TDDExample.twoAsOne(3,2,1));
-    }
-
-    @Test
-    public void Test4(){
-        // make assertion statment(s)
-        assertEquals(true, TDDExample.twoAsOne(2,3,1));
+    public void test2() {
+      int arr[] = {1, 2, 3};
+      assertFalse(TDDExample.containsNumber(arr, 4, 0));
     }
  
     

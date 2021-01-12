@@ -26,6 +26,7 @@ public class Employee
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   }
 =======
   } 
@@ -36,5 +37,8 @@ public class Employee
 =======
   } 
 >>>>>>> 9c6a14d9cd07614ada0b517f682b4926dbdc705b
+=======
+  } 
+>>>>>>> 4629034ecabd8d018aa00934a5ab79ae9f4ef690
 
 }

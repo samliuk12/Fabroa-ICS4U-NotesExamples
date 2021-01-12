@@ -9,8 +9,17 @@ public class SearchBinary{
         int[] intMyArray = {7, 10, 21, 45, 50, 2000};
         
         // output the result of a linear search on key 45
+<<<<<<< HEAD
         System.out.println(binarySearch(intMyArray, 21));
 
+=======
+
+        //System.out.println(binarySearch(intMyArray, 88));
+
+        System.out.println(binarySearch(intMyArray, 21));
+
+
+>>>>>>> 4629034ecabd8d018aa00934a5ab79ae9f4ef690
     }
 
   public static int binarySearch(int[] intArray, int intKey)

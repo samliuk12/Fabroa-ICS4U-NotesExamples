@@ -1,29 +1,30 @@
 language = "java10"
 
-# run = "javac -d bin src/oop/lesson1_Intro/*.java; java -cp bin oop.lesson1_Intro.AmongUs"
+run = "javac -d bin src/tdd/TDDExample.java; javac -d bin -sourcepath src -classpath lib/junit-platform-console-standalone-1.7.0-M1.jar src/tdd/TDDExampleTest.java; java -jar lib/junit-platform-console-standalone-1.7.0-M1.jar --class-path bin -c tdd.TDDExampleTest"
 
-# run = "javac -d bin src/oop/lesson2_Encapsulation/*.java; java -cp bin oop.lesson2_Encapsulation.AngryBird1"
+# run = "javac -cp bin -d bin -sourcepath src src/oop/lesson1_Intro/Player.java; javac -cp bin -d bin # src/oop/lesson1_Intro/AmongUs.java; java -cp bin oop.lesson1_Intro.AmongUs"
+
+
+# run = "javac -d bin src/oop/lesson1_Intro/*.java; java -cp bin oop.lesson1_Intro.AmongUs"
 
 
 # run = "javac -d bin src/oop/lesson2_Encapsulation/*.java; java -cp bin oop.lesson2_Encapsulation.AngryBird2"
 
 # run = "javac -d bin src/oop/lesson1_Intro/*.java; java -cp bin oop.lesson1_Intro.AmongUs"
 
+
 # run = "javac -d bin src/oop/lesson3_HasArelationships/*.java; java -cp bin oop.lesson3_HasArelationships.EmployeeAddrDemo"
 
 # run = "javac -d bin src/oop/lesson3_HasArelationships/*.java; java -cp bin oop.lesson3_HasArelationships.ClassroomMain"
-
-
-# run = "javac -d bin src/oop/lesson3_HasArelationships/*.java; java -cp bin oop.lesson3_HasArelationships.Test"
-
-# run = "javac -d bin src/oop/lesson4_IsArelationships/*.java; java -cp bin oop.lesson4_IsArelationships.ClassroomMain"
 
 
 # run = "javac -d bin src/oop/lesson4_IsArelationships/*.java; java -cp bin oop.lesson4_IsArelationships.ClassroomMain"
 
 # run = "javac -d bin src/oop/lesson5_polymorphism/*.java; java -cp bin oop.lesson5_polymorphism.MainProgram"
 
-run = "javac -d bin src/algorithms/SearchLinear.java; java -cp bin algorithms.SearchLinear"
+#run = "javac -d bin src/algorithms/SearchLinear.java; java -cp bin algorithms.SearchLinear"
 
 # run = "javac -d bin src/algorithms/SearchBinary.java; java -cp bin algorithms.SearchBinary"
+# run = "javac -d bin src/algorithms/SortSelection.java; java -cp bin algorithms.SortSelection"
 
+#run = "javac -d bin src/algorithms/SortMerge.java; java -cp bin algorithms.SortMerge"
